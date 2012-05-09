@@ -6,12 +6,15 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
+
 
 namespace water
 {
     public partial class Config_Form : Form
     {
         private int tmpstyle;
+        private string sqlcon = string.Empty;
         public Config_Form()
         {
             InitializeComponent();
@@ -75,6 +78,16 @@ namespace water
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string path = global.AppPath + @"\Myconfig.ini";
+            sqlcon = "\"" + sqlcon + "\"";
+            global.WritePrivateProfileString("MyConnectionStr", "style",tmpstyle.ToString() , path);
+            global.WritePrivateProfileString("MyConnectionStr", "sqlstr", sqlcon, path);
+            MessageBox.Show("数据库连接信息修改成功，下次启动后生效！");
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
             if (tmpstyle == 1)
             {
                 if (string.IsNullOrEmpty(textBox2.Text.Trim()) || string.IsNullOrEmpty(textBox3.Text.Trim()) || string.IsNullOrEmpty(textBox4.Text.Trim()) || string.IsNullOrEmpty(textBox5.Text.Trim()))
@@ -91,20 +104,58 @@ namespace water
                     return;
                 }
             }
-            string path = global.AppPath + @"\Myconfig.ini";
-            string sqlcon = string.Empty;
-            if(tmpstyle==1)
+            if (tmpstyle == 1)
             {
-                sqlcon = "\"database="+textBox2.Text.Trim()+";Server="+textBox4.Text.Trim()+";uid="+textBox3.Text.Trim()+";Password="+textBox5.Text.Trim()+";Persist Security Info=True\"";
+                sqlcon = "database=" + textBox2.Text.Trim() + ";Server=" + textBox4.Text.Trim() + ";uid=" + textBox3.Text.Trim() + ";Password=" + textBox5.Text.Trim() + ";Persist Security Info=True";
             }
-            else if(tmpstyle==2)
+            else
             {
-                sqlcon = "\""+textBox1.Text.Trim()+"\"";
+                sqlcon = textBox1.Text.Trim();
+            }  
+            try
+            {
+                SqlConnection sqlconn = new SqlConnection(sqlcon);
+                sqlconn.Open();
+                sqlconn.Close();
+                button1.Enabled = true;
+                button3.Enabled = false;
+                MessageBox.Show("测试成功！");
+
             }
-            global.WritePrivateProfileString("MyConnectionStr", "style",tmpstyle.ToString() , path);
-            global.WritePrivateProfileString("MyConnectionStr", "sqlstr", sqlcon, path);
-            MessageBox.Show("数据库连接信息修改成功，下次启动后生效！");
-            this.Close();
+            catch
+            {
+                MessageBox.Show("无法建立数据库连接！");
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
         }
     }
 }
