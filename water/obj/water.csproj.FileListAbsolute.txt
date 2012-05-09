@@ -1,0 +1,78 @@
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\bin\Debug\water.exe
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\bin\Debug\water.pdb
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.Properties.Resources.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.csproj.GenerateResource.Cache
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.exe
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.pdb
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.pro_a.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.MainFrm.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.Login.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.Emt.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.ceshi.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.chaxun.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.mulu.resources
+C:\Users\wyq\Documents\Visual Studio 2005\Projects\water\water\obj\Debug\water.pic.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.exe
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.pdb
+C:\Users\wyq\Desktop\王英强\water\water\bin\Debug\water.exe
+C:\Users\wyq\Desktop\王英强\water\water\bin\Debug\water.pdb
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.ceshi_2.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.ceshi.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.chaxun.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Emt.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.MainFrm.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Login.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.mulu.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.pic.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Properties.Resources.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.pro_a.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.csproj.GenerateResource.Cache
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Add_glsj.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Add_user.resources
+C:\Users\wyq\Desktop\王英强\water\water\obj\Debug\water.Add_mdata.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.exe
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pdb
+C:\Users\wyq\Desktop\water\water\bin\Debug\water.exe
+C:\Users\wyq\Desktop\water\water\bin\Debug\water.pdb
+C:\Users\wyq\Desktop\water\water\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Add_glsj.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Add_mdata.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Add_user.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.ceshi_2.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.ceshi.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.chaxun.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Emt.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.MainFrm.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Login.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.mulu.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pic.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.Properties.Resources.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pro_a.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.csproj.GenerateResource.Cache
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pj_zc.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pro_ceshi1.resources
+C:\Users\wyq\Desktop\water\water\obj\Debug\water.pj_ces2.resources
+G:\water\water\obj\Debug\water.exe
+G:\water\water\obj\Debug\water.pdb
+G:\water\water\bin\Debug\water.exe
+G:\water\water\bin\Debug\water.pdb
+G:\water\water\obj\Debug\ResolveAssemblyReference.cache
+G:\water\water\obj\Debug\water.Add_glsj.resources
+G:\water\water\obj\Debug\water.Add_mdata.resources
+G:\water\water\obj\Debug\water.Add_user.resources
+G:\water\water\obj\Debug\water.ceshi_2.resources
+G:\water\water\obj\Debug\water.ceshi.resources
+G:\water\water\obj\Debug\water.chaxun.resources
+G:\water\water\obj\Debug\water.Emt.resources
+G:\water\water\obj\Debug\water.MainFrm.resources
+G:\water\water\obj\Debug\water.Login.resources
+G:\water\water\obj\Debug\water.mulu.resources
+G:\water\water\obj\Debug\water.pic.resources
+G:\water\water\obj\Debug\water.pj_ces2.resources
+G:\water\water\obj\Debug\water.pj_zc.resources
+G:\water\water\obj\Debug\water.Properties.Resources.resources
+G:\water\water\obj\Debug\water.pro_a.resources
+G:\water\water\obj\Debug\water.pro_ceshi1.resources
+G:\water\water\obj\Debug\water.csproj.GenerateResource.Cache

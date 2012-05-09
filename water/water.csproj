@@ -1,0 +1,268 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1628AA94-F85D-46BB-A2FD-5C0BF3F6CC98}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>water</RootNamespace>
+    <AssemblyName>water</AssemblyName>
+    <ApplicationIcon>da.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TeeChart, Version=3.2.2699.17379, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_mdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_mdata.Designer.cs">
+      <DependentUpon>Add_mdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_user.Designer.cs">
+      <DependentUpon>Add_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceshi-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceshi-2.Designer.cs">
+      <DependentUpon>ceshi-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceshi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceshi.Designer.cs">
+      <DependentUpon>ceshi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chaxun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chaxun.Designer.cs">
+      <DependentUpon>chaxun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emt.Designer.cs">
+      <DependentUpon>Emt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="global.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mulu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mulu.Designer.cs">
+      <DependentUpon>mulu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pic.Designer.cs">
+      <DependentUpon>pic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pj_ces2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pj_ces2.Designer.cs">
+      <DependentUpon>pj_ces2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pj_zc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pj_zc.Designer.cs">
+      <DependentUpon>pj_zc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_mdata.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Add_mdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_user.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Add_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceshi-2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ceshi-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceshi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ceshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chaxun.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>chaxun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mulu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>mulu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pj_ces2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pj_ces2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pj_zc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pj_zc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_a.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pro_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pro_ceshi1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pro_ceshi1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>skin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_add.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>User_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pro_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pro_a.Designer.cs">
+      <DependentUpon>pro_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pro_ceshi1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pro_ceshi1.Designer.cs">
+      <DependentUpon>pro_ceshi1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skin.Designer.cs">
+      <DependentUpon>skin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash.Designer.cs">
+      <DependentUpon>splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_add.Designer.cs">
+      <DependentUpon>User_add.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="da.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
