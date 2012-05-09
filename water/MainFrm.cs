@@ -273,8 +273,8 @@ namespace water
 
         private void toolStripButton7_Click(object sender, EventArgs e)
         {
-            ceshi_2 cs2 = new ceshi_2();
-            cs2.Show();
+            Config_Form cf = new Config_Form();
+            cf.Show();
         }
 
         private void aæÌToolStripMenuItem_Click(object sender, EventArgs e)
@@ -313,6 +313,12 @@ namespace water
         {
             UserManage um = new UserManage();
             um.Show();
+        }
+
+        private void ≈‰÷√ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Config_Form cf = new Config_Form();
+            cf.Show();
         }
 
     }

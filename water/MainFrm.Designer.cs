@@ -198,6 +198,7 @@
             this.配置ToolStripMenuItem.Name = "配置ToolStripMenuItem";
             this.配置ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.配置ToolStripMenuItem.Text = "系统配置";
+            this.配置ToolStripMenuItem.Click += new System.EventHandler(this.配置ToolStripMenuItem_Click);
             // 
             // 切换界面ToolStripMenuItem
             // 

@@ -5,7 +5,6 @@ bin\Debug\water.pdb
 obj\Debug\ResolveAssemblyReference.cache
 obj\Debug\water.Add_mdata.resources
 obj\Debug\water.Add_user.resources
-obj\Debug\water.ceshi_2.resources
 obj\Debug\water.ceshi.resources
 obj\Debug\water.chaxun.resources
 obj\Debug\water.Emt.resources
@@ -24,3 +23,4 @@ obj\Debug\water.UserManage.resources
 obj\Debug\water.User.resources
 obj\Debug\water.User_add.resources
 obj\Debug\water.splash.resources
+obj\Debug\water.Config_Form.resources

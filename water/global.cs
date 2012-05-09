@@ -15,6 +15,7 @@ namespace water
         public static string AppPath;
         public static string sqlconstr;
         public static string current_user;
+        public static int sqlstrstyle;
         [DllImport("kernel32")]
         public static extern int GetPrivateProfileString(string section, string key, string def, StringBuilder retVal, int size, string filePath);//¶ÁÈ¡INIÅäÖÃÎÄ¼ş
         [DllImport("kernel32")]
