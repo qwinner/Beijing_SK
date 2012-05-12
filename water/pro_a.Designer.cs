@@ -169,7 +169,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(784, 519);
+            this.panel1.Size = new System.Drawing.Size(784, 600);
             this.panel1.TabIndex = 8;
             // 
             // button1
@@ -558,8 +558,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(0, 600);
-            this.ClientSize = new System.Drawing.Size(784, 519);
+            this.ClientSize = new System.Drawing.Size(801, 519);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "pro_a";

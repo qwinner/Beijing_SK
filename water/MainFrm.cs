@@ -15,6 +15,10 @@ namespace water
         public MainFrm()
         {
             InitializeComponent();
+            //Panel linshi;
+
+           
+           
         }
 
         
@@ -232,10 +236,49 @@ namespace water
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
-        {
-            pic UM = new pic();
-            //UM.Owner = this;
-            UM.Show();
+        {   
+            /////////////////
+            splitContainer1.Panel2.Controls.Clear();
+            ahp_1 ahfrm = new ahp_1();
+            ahfrm.TopLevel = false;
+            ahfrm.Dock = System.Windows.Forms.DockStyle.Fill;
+            ahfrm.Parent = splitContainer1.Panel2;
+            ahfrm.Show();
+
+
+           // splitContainer1.Panel2.Controls.CopyTo(linshi);
+            //splitContainer1.Panel2.Controls.Clear();
+            //GroupBox groupBox1 = new GroupBox();
+            //groupBox1.Location = new Point(3,3);
+            //groupBox1.AutoSize = true;
+            //groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            ////groupBox1.Size=new System.Drawing.Size(1020, 812);System.Windows.Forms.DockStyle.Fill
+            //splitContainer1.Panel2.Controls.Add(groupBox1);
+
+            //Label lbzz = new Label();
+            //lbzz.Location = new Point(50,100);
+            //lbzz.Size = new System.Drawing.Size(30, 50);
+            //lbzz.Text="准则";
+            //groupBox1.Controls.Add(lbzz);
+
+            //Label lbfa = new Label();
+            //lbfa.Location = new Point(50, 180);
+            //lbfa.Size = new System.Drawing.Size(30, 50);
+            //lbfa.Text = "方案";
+            //groupBox1.Controls.Add(lbfa);
+
+
+
+
+
+
+
+          
+
+
+
+
+
         }
 
         private void toolStripButton5_Click(object sender, EventArgs e)
@@ -267,14 +310,15 @@ namespace water
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-            pj_zc pj = new pj_zc();
-            pj.Show();
+          
+            //splitContainer1.Panel2.Controls.Clear();
+            //linshi.Controls.CopyTo(splitContainer1.Panel2);
         }
 
         private void toolStripButton7_Click(object sender, EventArgs e)
         {
-            Config_Form cf = new Config_Form();
-            cf.Show();
+            ceshi_2 cs2 = new ceshi_2();
+            cs2.Show();
         }
 
         private void a卷ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -315,10 +359,10 @@ namespace water
             um.Show();
         }
 
-        private void 配置ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Config_Form cf = new Config_Form();
-            cf.Show();
+            
+
         }
 
     }

@@ -53,6 +53,18 @@
     <Compile Include="Add_user.Designer.cs">
       <DependentUpon>Add_user.cs</DependentUpon>
     </Compile>
+    <Compile Include="ahp-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ahp-1.Designer.cs">
+      <DependentUpon>ahp-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceshi-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceshi-2.Designer.cs">
+      <DependentUpon>ceshi-2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ceshi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,12 +76,6 @@
     </Compile>
     <Compile Include="chaxun.Designer.cs">
       <DependentUpon>chaxun.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Config_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Config_Form.Designer.cs">
-      <DependentUpon>Config_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Emt.cs">
       <SubType>Form</SubType>
@@ -124,6 +130,14 @@
       <SubType>Designer</SubType>
       <DependentUpon>Add_user.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ahp-1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ahp-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceshi-2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ceshi-2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ceshi.resx">
       <SubType>Designer</SubType>
       <DependentUpon>ceshi.cs</DependentUpon>
@@ -131,10 +145,6 @@
     <EmbeddedResource Include="chaxun.resx">
       <SubType>Designer</SubType>
       <DependentUpon>chaxun.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Config_Form.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>Config_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Emt.resx">
       <SubType>Designer</SubType>

@@ -13,7 +13,6 @@ namespace water
     {
         private static splash sp = new splash();
         private int databaseconnected;
-        private int configreaded;
         public static splash NewForm  //窗体间互访(子窗体)
         {
             get
@@ -35,7 +34,7 @@ namespace water
         {
             if (this.Opacity < 1)
             {
-                Opacity += 0.5;
+                Opacity += 0.2;
             }
             else
             {
@@ -49,33 +48,20 @@ namespace water
             global.AppPath = Application.StartupPath;
             StringBuilder temp = new StringBuilder(255);
             string path = global.AppPath + @"\Myconfig.ini";
+            global.GetPrivateProfileString("SKIN", "skin", "error", temp, 255, path);
+            global.skin_name = temp.ToString();
+            global.GetPrivateProfileString("MyConnectionStr", "sqlstr", "error", temp, 255, path);//读取数据库连接字符串
+            global.sqlconstr = temp.ToString();
+            SqlConnection sqlcon = new SqlConnection(global.sqlconstr);
             try
             {
-                global.GetPrivateProfileString("SKIN", "skin", "error", temp, 255, path);
-                global.skin_name = temp.ToString();
-                global.GetPrivateProfileString("MyConnectionStr", "sqlstr", "error", temp, 255, path);//读取数据库连接字符串
-                global.sqlconstr = temp.ToString();
-                global.GetPrivateProfileString("MyConnectionStr", "style", "error", temp, 255, path);//读取数据库连接字符串
-                global.sqlstrstyle = Convert.ToInt32(temp.ToString());
-                configreaded = 1;
+                sqlcon.Open();
+                sqlcon.Close();
+                databaseconnected = 1;
             }
             catch
             {
-                configreaded = 0;
-            }
-            if (configreaded == 1)
-            {
-                SqlConnection sqlcon = new SqlConnection(global.sqlconstr);
-                try
-                {
-                    sqlcon.Open();
-                    sqlcon.Close();
-                    databaseconnected = 1;
-                }
-                catch
-                {
-                    databaseconnected = 0;
-                }
+                databaseconnected = 0;
             }
         }
 
@@ -109,25 +95,18 @@ namespace water
             }
             else if (Convert.ToInt32(LabFlash.Tag) < 12)
             {
-                if (configreaded == 0)
+                if (databaseconnected == 1)
                 {
-                    info = "配置信息加载失败...";
+                    info = "系统全部加载完成...";
                 }
                 else
                 {
-                    if (databaseconnected == 1)
-                    {
-                        info = "加载完成...";
-                    }
-                    else
-                    {
-                        info = "无法建立数据库连接,程序即将关闭...";
-                    }
+                    info = "无法建立数据库连接,程序即将关闭...";
                 }
             }
             else
             {
-                if (databaseconnected == 0|| configreaded == 0)
+                if (databaseconnected == 0)
                 {
                     Application.Exit();
                 }
@@ -204,7 +183,7 @@ namespace water
         {
             if (this.Opacity > 0)
             {
-                Opacity -= 0.5;
+                Opacity -= 0.2;
             }
             else
             {

@@ -14,7 +14,6 @@ namespace water
         public Login()
         {
             InitializeComponent();
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -79,7 +78,6 @@ namespace water
                 MessageBox.Show("≈‰÷√–≈œ¢¥ÌŒÛ£°");
                 Application.Exit();
             }
-            skinEngine1.SkinFile = "Skin\\" + global.skin_name;
             textBox1.Focus();
             timer1.Start();
         }
